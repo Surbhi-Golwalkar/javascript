@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title></title>
+	<script type="text/javascript">
+		var ages = [0,7,14,18,59,5]
+		document.write(ages + "<br><br>");
+
+		var b = ages.filter(checkAdult);
+		//var b=ages.findIndex(checkAdult);
+
+		document.write(ages + "<br><br>");
+		function checkAdult(age){
+			return age>=20;
+		}
+
+
+	</script>
+</head>
+<body>
+
+</body>
+</html>
